@@ -8,35 +8,83 @@
   -->
 
 <html>
-<head>
+
+
+
+
+<header>
+
+
 <title>Abdullah's Portfolio</title>
-</head>
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
+<div class="title"><h1>Portfolio for Abdullah Nazari</h1></div>
+
+
+
+
+<style>
+header {
+       background-color: darkgray;
+   }
+   <footer style="background-color: fuchsia">
+   nav {
+       border-top: 3px dashed #546a7b;
+       border-bottom: 3px dashed #546a7b;
+   }
+
+</style>
+<style>
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+
+        table, th, td {
+            border: 1px solid #0d1f2d;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        th {
+            background-color: #546a7b;
+            color: #f2eded;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #e4c3ad;
+        }
+    </style>
+
+</header>
 <body>
+
+
+
+
+
+
   <nav> <!-- The nav element will include navigation buttons or links -->
-    <hr />
     <p><a href="">Home</a></p>
     <p><a href="projects.html">Projects</a></p>
-    <hr />
-</nav>
-<nav> <!-- The nav element will include navigation buttons or links -->
+    <p><a href="contacts.html">Contacts</a></p>
+    <p><a href="testimonials.html">Testimonials</a></p>
 
 
-    <p><a href="contact.html">Contacts</a></p>
-    <hr />
-</nav>
-<nav> <!-- The nav element will include navigation buttons or links -->
-
-
-    <p><a href="Testimonials.html">Testimonials</a></p>
-    <hr />
 </nav>
 
-  <h1> Portfolio for Abdullah Nazari </h1>
 
-  <hr />
-  <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-  <p> Links to our pages</p>
-  <hr />
+
+
 
   <h2><em>About Me</em></h2>
   <img src="imgs\me_w_long hair.jpg" alt="My Selfie" width="150" />
@@ -47,7 +95,7 @@
   <p> I went to LaGuardia Community College for my Associates' Degree and then I went to Baruch College for my Bachelor's degree.
 
   </p>
-<article id="experience">
+<article class ="border"id="experience">
   <h2><em>Past Experiences</em></h2>
   <img src="imgs\boxing_gloves.jpg" alt="Boxing gloves" width="150" />
 
@@ -115,9 +163,14 @@
             <li>Basketball</li>
         </ul>
     </ul>
+
 </article>
 
 
   </body>
 
+  <footer> <!-- The footer is a block at the bottom of the page. -->
+      <hr />
+      <p>&copy; 2020 Abdullah Nazari. All rights reserved.</p>
+  </footer>
 </html>
