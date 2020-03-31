@@ -24,7 +24,7 @@
 
 <style>
 header {
-       background-color: darkgray;
+       background-color: #5b7d87;
    }
    <footer style="background-color: fuchsia">
    nav {
@@ -63,6 +63,7 @@ header {
         tbody tr:nth-child(odd) {
             background-color: #e4c3ad;
         }
+
     </style>
 
 </header>
@@ -80,6 +81,7 @@ header {
     <p><a href="testimonials.html">Testimonials</a></p>
 
 
+
 </nav>
 
 
@@ -87,17 +89,36 @@ header {
 
 
   <h2><em>About Me</em></h2>
-  <img src="imgs\me_w_long hair.jpg" alt="My Selfie" width="150" />
+  <img src="imgs\me_w_long hair.jpg" alt="My Selfie" width="150" style="float:left;" />
   <p> <strong>My name is Abdullah. I'm on my journey to becoming a full stack developer.</Strong> I have a background in finance but I was always interested in programming for a long time. I enjoy studying theology, hanging out with my friends, learning anything related to tech, and working out.
 
 
   </p>
   <p> I went to LaGuardia Community College for my Associates' Degree and then I went to Baruch College for my Bachelor's degree.
+    When I was in high school, my friends and I took up boxing and mixed martial arts classes. They were a great experience. They helped me get into shape, make new friends, boost up my confidence, and taught me how to defend myself.
 
   </p>
+  <div class="clear-float"></div>
+<style>
+.clear-float {
+    clear:both;
+}
+</style>
+
+<style>
+article img {
+   float:left;
+}
+.right-content {
+    float:left;
+}
+</style>
+
 <article class ="border"id="experience">
   <h2><em>Past Experiences</em></h2>
   <img src="imgs\boxing_gloves.jpg" alt="Boxing gloves" width="150" />
+  <div class="right-content">
+
 
   <table>
     <caption> Employment History </caption>
@@ -126,6 +147,9 @@ header {
     </tr>
 
 </table>
+</div>
+<div class="clear-float"></div>
+
 </article>
 
 
@@ -135,6 +159,8 @@ header {
 <article id="hobbies">
    <h2><em>Hobbies</em></h2>
    <img src="imgs\laptop.jpg" alt="laptop" width="150" />
+   <div class="right-content">
+
    <ul>
        <li>Favorite Drinks</li>
        <ol>
@@ -163,8 +189,8 @@ header {
             <li>Basketball</li>
         </ul>
     </ul>
-
 </article>
+<div class="clear-float"></div>
 
 
   </body>

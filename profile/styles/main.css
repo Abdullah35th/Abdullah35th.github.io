@@ -7,7 +7,10 @@ Date last modified: 3/30/20
 body {
     background-color: white;
     font-family: arial, helvetica, sans-serif;
-    color: #0d1f2d
+    color: #0d1f2d;
+    max-width: 900px;
+    margin: 0 auto;
+
 }
 
 header, footer {
