@@ -1,0 +1,17 @@
+body {
+background-color: black;
+color: white;
+text-align: center;
+font-family: 'Playfair Display', serif;
+
+
+}
+a { color: white;
+
+}
+header{
+  background-color: gray;
+}
+footer{
+  background-color: gray;
+}

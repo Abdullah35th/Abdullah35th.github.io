@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+    Name: Your Name
+    Date Created: Today's date
+    Most recent revision:
+-->
+<html lang="en">
+    <head>
+        <title>Page Title</title>
+        <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="restaurantStyleJS.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+      <header>
+        <hr />
+            <h1> Abdullah's Burgers </h1>
+        <hr />
+            <!-- <a href="restaurantJS.html">Home</a>
+            <a href="menujs.html">Menu</a>
+            <a href="contactjs.html">Contact Us</a> -->
+
+  <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" href="restaurantJS.html"><img src="Images1/homeIcon.svg" width="20px"></a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link" href="menujs.html">Menu</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contactjs.html">Contact Us</a>
+  </li>
+
+</ul>
+
+        <hr />
+
+      </header>
+
+          <hr>
+          <form >
+		<label for="firstName">First Name:</label><br/>
+		<input type="text" id="firstName" name="firstName"><br/>
+		<label for="lastName">Last Name:</label><br/>
+		<input type="text" id="lastName" name="lastName"><br/>
+		<label for="phone">Phone Number: </label><br/>
+		<input type="text" id="phone" name="phone"><br/>
+		<label for="contact">Best time to call:</label><br/>
+			<select id="contact" name="contact">
+			<option value="default" selected>--Select One--</option>
+			<option value="morning">Morning(8am to 12pm Eastern)</option>
+			<option valuie="afternoon">Afternoon(12pm to 5pm)</option>
+			<option value="evening">Evening(5pm to 8pm)</option>
+			</select>
+			<fieldset>
+			<legend> I am interested in working</legend><br/>
+				<input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
+				<label for="frontEnd">Kitchen</label><br/>
+				<input type="checkbox" id="bacEnd" name="interest" value="backEnd">
+				<label for"backEnd">Cashier</label><br/>
+				<input type="checkbox" id="database" name="interest" value="database">
+				<label for="database">Cook</label><br/>
+			</fieldset>
+			<fieldset>
+				<legend>I have filled in the questionaire form:</legend><br/>
+				<input type="radio" id="choice1" name="questionaire" value="yes">
+				<label forgit="choice1">Yes</label><br/>
+				<input type="radio" id="choice2" name="questionaire" value="no">
+				<label for="choice2">No</label><br/>
+			</fieldset>
+			<label for="info">Additional Information</label><br/>
+			<textarea id="info" name="info"></textarea>
+			<button id="submitBtn" onclick="return validateForm();">Submit</button>
+
+        <nav>
+
+        </nav>
+
+
+        <footer>
+          <hr />
+            555 Burger Avenue, <br>
+            Burger City, NY 11101 USA <br>
+              (555) 555-555
+
+        </footer>
+        <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                <script type="text/JavaScript" src="restaurant.js"></script>
+                <noscript>
+                  This page is best viewed with Javascript!
+                </noscript>
+    </body>
+</html>
